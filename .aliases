@@ -1,3 +1,22 @@
+# Navigation
+alias ..="cd .."
+alias cd..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../../"
+alias -- -="cd -"
+
+# Copy, Move, Remove
+alias cp='cp -v'
+alias mv='mv -v'
+alias rm='rm -i -v'
+
+# Shortcuts
+alias g="git"
+
+# Google Cloud SDK
+alias gsutil="gsutil.cmd"
+
+# Development
 alias cll='clear && ll'
 alias dcd='docker-compose down'
 alias dcu='docker-compose up -d'
